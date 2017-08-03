@@ -1,0 +1,16 @@
+.Alert {
+  @extend %modal;
+
+  z-index: 9010;
+
+  &__text {
+    @extend %type--md;
+
+    margin: 0 0 1em;
+  }
+
+  &__close {
+    @extend %button--green;
+  }
+}
+

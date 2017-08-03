@@ -1,0 +1,31 @@
+%type {
+  font-family: sans-serif;
+
+  &--xl {
+    @extend %type;
+
+    font-size: 36px;
+    font-weight: normal;
+  }
+
+  &--lg {
+    @extend %type;
+
+    font-size: 24px;
+    font-weight: normal;
+  }
+
+  &--md {
+    @extend %type;
+
+    font-size: 18px;
+    font-weight: normal;
+  }
+
+  &--sm {
+    @extend %type;
+
+    font-size: 10px;
+    font-weight: normal;
+  }
+}

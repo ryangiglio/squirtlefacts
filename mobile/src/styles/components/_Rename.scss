@@ -1,0 +1,50 @@
+.Rename {
+  @extend %modal--max;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  z-index: 9001;
+
+  &__header {
+    @extend %modal__header;
+
+    color: #EC6BA1;
+
+    background-color: #FEF4F8;
+
+    &::after {
+      background-color: #EC6BA1;
+    }
+  }
+
+  &__image {
+    display: block;
+
+    height: 30%;
+
+    margin: 0 auto;
+  }
+
+  &__form {
+  }
+
+  &__label {
+    @extend %type--md;
+
+    display: block;
+
+    margin: 0 0 8px;
+  }
+
+  &__input {
+    @extend %input;
+
+    margin-bottom: 8px;
+  }
+
+  &__submit {
+    @extend %button--green;
+  }
+}

@@ -1,0 +1,67 @@
+@import '../mixins/keyframes';
+
+@include keyframes(eggWobble) {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(8deg);
+  }
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(0deg);
+  }
+}
+
+.Portrait {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: calc(100% - 40px);
+  height: calc(100% - 40px);
+
+  margin: 20px 0 0 20px;
+
+  &__level {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    margin: 0;
+  }
+
+  &__name {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+
+    margin: 0;
+
+    text-align: center;
+  }
+
+  &__img {
+    position: relative;
+
+    display: inline-block;
+
+    &--egg {
+      @extend .Portrait__img;
+
+      animation-name: eggWobble;
+      animation-duration: 1500ms;
+      animation-iteration-count: infinite;
+
+      transform-origin: bottom center;
+    }
+  }
+}
+

@@ -1,0 +1,14 @@
+@import 'normalize.css/normalize';
+
+@import 'partials/global';
+@import 'partials/type';
+@import 'partials/modules';
+
+@import 'components/App';
+@import 'components/Moves';
+@import 'components/ConnectModal';
+@import 'components/Alert';
+@import 'components/Rename';
+@import 'components/Portrait';
+@import 'components/Game';
+@import 'components/ConnectionStatus';

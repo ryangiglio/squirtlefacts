@@ -1,0 +1,38 @@
+.KeyModal {
+  @extend %modal--max;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  &__headline {
+    @extend %type--lg;
+
+    margin: 0;
+  }
+
+  &__text {
+    @extend %type--md;
+
+    margin: 0;
+  }
+
+  &__img {
+    display: block;
+
+    width: auto;
+    height: 40%;
+  }
+
+  &__key {
+    @extend %type--xl;
+  }
+
+  &__close {
+    @extend %button--green;
+
+    max-width: 320px;
+  }
+}
+

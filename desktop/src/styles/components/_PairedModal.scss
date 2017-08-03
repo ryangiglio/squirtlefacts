@@ -1,0 +1,28 @@
+.PairedModal {
+  @extend %modal;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  text-align: center;
+
+  &__headline {
+    @extend %type--lg;
+
+    margin-bottom: 0;
+  }
+
+  &__text {
+    @extend %type--md;
+  }
+
+  &__close {
+    @extend %button--green;
+
+    max-width: 320px;
+
+    margin: 0 auto;
+  }
+}
+

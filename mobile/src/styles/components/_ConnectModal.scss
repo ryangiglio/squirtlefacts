@@ -1,0 +1,53 @@
+.ConnectModal {
+  @extend %modal--max;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  &__headline {
+    @extend %type--lg;
+
+    margin: 0;
+  }
+
+  &__text {
+    @extend %type--md;
+
+    margin: 0;
+  }
+
+  &__img {
+    display: block;
+
+    &--squirtle {
+      @extend .ConnectModal__img;
+
+      max-width: 60%;
+      height: auto;
+    }
+  }
+
+  &__label {
+    @extend %type--md;
+
+    display: block;
+
+    margin-bottom: 8px;
+  }
+
+  &__input {
+    @extend %input;
+    @extend %type--lg;
+
+    margin-bottom: 8px;
+
+    letter-spacing: 2px;
+  }
+
+  &__submit {
+    @extend %button--green;
+  }
+}
+

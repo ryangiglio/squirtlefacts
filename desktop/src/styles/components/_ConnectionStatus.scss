@@ -1,0 +1,21 @@
+.ConnectionStatus {
+  float: left;
+
+  margin: 0;
+
+  &__text {
+    @extend %type--sm;
+
+    margin: 0;
+
+    .fa {
+      margin-right: 3px;
+    }
+
+    &--clickable {
+      @extend .ConnectionStatus__text;
+
+      cursor: pointer;
+    }
+  }
+}

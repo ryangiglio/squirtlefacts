@@ -1,0 +1,33 @@
+{
+  "name": "mobile",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "react-scripts": "1.0.7"
+  },
+  "dependencies": {
+    "js-cookie": "^2.1.4",
+    "node-sass": "^4.5.3",
+    "normalize.css": "^7.0.0",
+    "npm-run-all": "^4.0.2",
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
+    "react-autobind": "^1.0.6",
+    "react-dom": "^15.6.1",
+    "react-motion": "^0.5.0",
+    "react-redux": "^5.0.5",
+    "redux": "^3.6.0",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "^4.8.0",
+    "socket.io": "^2.0.3"
+  },
+  "scripts": {
+    "build-css": "node-sass src/styles --include-path ./node_modules -o public/css",
+    "watch-css": "npm run build-css && node-sass src/styles --include-path ./node_modules -o public/css --watch --recursive",
+    "start-js": "react-scripts start",
+    "start": "npm-run-all -p watch-css start-js",
+    "build": "npm run build-css && react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

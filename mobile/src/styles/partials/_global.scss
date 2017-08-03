@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+
+  width: 100%;
+  height: var(--window-height);
+
+  background-color: #EDFFFB;
+}
+
+body,
+input,
+textarea
+button {
+  @extend %type;
+
+  /* stylelint-disable */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* stylelint-enable */
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}

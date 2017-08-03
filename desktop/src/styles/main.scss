@@ -1,0 +1,13 @@
+@import 'normalize.css/normalize';
+
+@import 'partials/global';
+@import 'partials/type';
+@import 'partials/modules';
+
+@import 'components/App';
+@import 'components/Fact';
+@import 'components/KeyModal';
+@import 'components/InfoModal';
+@import 'components/PairedModal';
+@import 'components/Footer';
+@import 'components/ConnectionStatus';

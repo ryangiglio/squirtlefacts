@@ -1,0 +1,18 @@
+export default [
+  `Squirtle is one of the three starter Pokémon in Generation I (Red/Blue/Green) and again in the Generation III remakes (FireRed/LeafGreen).`,
+  `In Pokémon Yellow, Squirtle can be received from a Cop in Vermilion City after earning the Thunder Badge. This is the only Squirtle available in the game.`,
+  `In Pokemon HeartGold/SoulSilver (Generation IV), Squirtle can only be received as a reward from Professor Oak after defeating Red, the player character from Generation I (Red/Blue/Green), as an NPC.`,
+  `In Pokemon X/Y (Generation VI), Squirtle can only be received as a gift from Professor Sycamore.`,
+  `When Squirtle feels threatened, it draws its legs inside its shell and sprays water from its mouth.`,
+  `Squirtle’s shell, which hardens soon after it is born, is resilient. If you poke it, your finger will bounce back out.`,
+  `Squirtle's shell is not merely used for protection. The shell's rounded shape and the grooves on its surface help minimize resistance in water, enabling this Pokémon to swim at high speeds.`,
+  `Across the many Generations, Squirtle's sprite color has changed noticeably: in Generation I it was light blue, in Generation II it was a dark shade of blue, and finally, the color scheme from Generation III and onwards is teal.`,
+  `Squirtle's English name can possibly both be a combination of the words "turtle", and "squirt". Turtle would be the animal it's based on off, and squirt means to spray water or small, or a combination between the words "turtle", and "squirrel", considering its tail looks similar to a squirrel's tail.`,
+  `Squirtle’s Japanese name ゼニガメ (Zenigame in Romaji) came from the Japanese words Zeni (銭) which means money and Kame (亀) which means turtle.`,
+  `Squirtle’s French name Carapuce comes from the combination of the words "carapace" (shell) and "puce" (flea) which could have been used because of the "cute" connotation that this word sometimes implies when used in French (i.e.: "puce" is often used to refer to a little girl).`,
+  `Squirtle is a playable fighter in Super Smash Bros. Brawl in a sense; it is one of three Pokémon that are played through Pokémon Trainer, the other two being Ivysaur and Charizard.`,
+  `Squirtle was actually Ash’s first choice in the Pokémon anime, but he missed the opportunity to choose him because he broke his alarm clock and slept through the ceremony.`,
+  `Shiny Squirtle has a green shell instead of red shell — thought by some to be a reference to Koopa Troopas from Super Mario Bros.`,
+  `Squirtle is scarce in the wild, although it can be found around small ponds and lakes.`,
+  `Squirtle’s first appearance in the Pokémon anime was in Episode 12 - Here Comes the Squirtle Squad, when a group of Squirtle who were abandoned by their trainers terrorized a small town in Kanto.`,
+];
